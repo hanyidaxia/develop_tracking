@@ -1,0 +1,13 @@
+
+9/7
+
+generator.resize_token_embeddings
+input: the new tokenizer length
+
+problem: if using the function, the model loss will decrease to a irreguar level, less than
+0.1, this phenomenon disappeared when setting the decoder input ids to None and directly use
+the label in the training process
+
+
+
+
